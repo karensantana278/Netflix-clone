@@ -34,3 +34,10 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+@media(max-width:760px){
+
+  footer{
+    font-size:14px;
+  }
+}
