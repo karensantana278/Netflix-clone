@@ -65,6 +65,12 @@ export default () => {
           <MovieRow key={key} title={item.title} items={item.items}/>
         ))}
       </section>
+
+      <footer>
+        Feito para estudo de react, todos os direitos das imagens são da Netflix.
+        <br/>
+        Dados Extraídos da api https://www.themoviedb.org/
+      </footer>
     </div>
   )
 }
