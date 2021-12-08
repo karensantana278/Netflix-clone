@@ -71,6 +71,13 @@ export default () => {
         <br/>
         Dados Extraídos da api https://www.themoviedb.org/
       </footer>
+
+      {movieList.length <= 0 &&
+        <div className="loading">
+          <img src="https://cdn.lowgif.com/small/0534e2a412eeb281-the-counterintuitive-tech-behind-netflix-s-worldwide.gif" alt="loading"></img>
+        </div>
+    }
+
     </div>
   )
 }
